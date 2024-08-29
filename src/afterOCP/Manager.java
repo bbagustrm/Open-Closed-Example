@@ -26,6 +26,6 @@ public class Manager implements Employee {
 
     @Override
     public void generateReport() {
-        System.out.println("Generating report for employee: " + name);
+        System.out.println("Generating report for manager: " + name);
     }
 }
